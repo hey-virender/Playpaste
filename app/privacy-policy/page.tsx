@@ -12,11 +12,11 @@ export const metadata = {
     openGraph: {
         title: "Privacy Policy | PastePlay",
         description: "Understand how PastePlay handles your data and ensures user privacy.",
-        url: "https://your-domain.com/privacy-policy",
+        url: "https://playpaste.virenderchauhan.in",
         siteName: "PastePlay",
         images: [
             {
-                url: "https://your-domain.com/og-image.png",
+                url: "https://playpaste.virenderchauhan.in/og-image.png",
                 width: 1200,
                 height: 630,
                 alt: "PastePlay Privacy Policy",

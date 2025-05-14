@@ -10,7 +10,7 @@ const Footer = () => {
                     <li><Link href="/privacy-policy"> <p className="leading-7 [&:not(:first-child)]:mt-6">
                         Privacy Policy
                     </p></Link></li>
-                    <li><Link href="#"><p className="leading-7 [&:not(:first-child)]:mt-6">
+                    <li><Link href="/terms"><p className="leading-7 [&:not(:first-child)]:mt-6">
                         Terms of Service
                     </p></Link></li>
                     <li><a href="mailto:bikuchauhan786@gmail.com"><p className="leading-7 [&:not(:first-child)]:mt-6">
