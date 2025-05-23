@@ -1,19 +1,19 @@
 'use client'
 import React from 'react';
 import {useSession} from "next-auth/react";
-
+import logo from "@/public/playpaste.png"
 import Link from "next/link";
 import {Avatar, AvatarFallback, AvatarImage} from "@/components/ui/avatar";
 import {Button} from "@/components/ui/button";
 import {Separator} from "@/components/ui/separator";
+import Image from "next/image";
 
 const Header = () => {
-    const {data: session, status} = useSession();
-    console.log("session",session);
+    const {data: session} = useSession();
     return (
         <>
         <header className="flex justify-between items-center py-5 sm:py-3 ">
-            <Link href="/"><h1 className="text-3xl font-bold sm:text-4xl text-yellow-400">PlayPaste</h1></Link>
+            <Link href="/"><Image src={logo} height={100} width={200} alt={"logo"} /></Link>
             <Link href="/login">
                 {session ? <div className="flex items-center gap-2">
                     <Avatar>
